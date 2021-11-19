@@ -27,5 +27,5 @@ if choice ==2:
 
     new_ounce= float ((new_pound%16)*1000 )
 
-    print("Converting " ,weight_kgs,"pound into Kilograms = ",new_pound,"kg, which is ",new_ounce," gram" )
+    print("Converting " ,weight_kgs,"Kilograms into Pounds = ",new_pound,"pound, which is ",new_ounce," ounce" )
 
