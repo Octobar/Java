@@ -15,8 +15,8 @@ if choice ==1:
     new_kgs= float(weight_lbs*0.45359237) 
     new_grams= float ((new_kgs%0.45359237)*1000 )
 
-    print("Converting " ,weight_lbs,
-"pound into Kilograms = ",new_kgs,"kg, which is ",new_grams," gram" )
+    print("Converting " ,weight_lbs,"pound into Kilograms = ",new_kgs,"kg, which is ",new_grams," gram" )
+
 
 if choice ==2:
 
@@ -29,3 +29,6 @@ if choice ==2:
 
     print("Converting " ,weight_kgs,"Kilograms into Pounds = ",new_pound,"pound, which is ",new_ounce," ounce" )
 
+
+elif choice !=1 and 2:
+    print("Error, please try again")
